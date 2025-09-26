@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Restaurant theme colors
+        fire: {
+          orange: "hsl(var(--fire-orange))",
+          red: "hsl(var(--fire-red))",
+        },
+        golden: "hsl(var(--golden))",
+        charcoal: "hsl(var(--charcoal))",
+        smoke: "hsl(var(--smoke))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +65,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-fire': 'var(--gradient-fire)',
+        'gradient-golden': 'var(--gradient-golden)',
+        'gradient-smoke': 'var(--gradient-smoke)',
+      },
+      fontFamily: {
+        'arabic': ['Amiri', 'serif'],
+        'display': ['Playfair Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

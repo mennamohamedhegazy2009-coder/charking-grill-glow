@@ -8,35 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 20 20% 6%;
+    --foreground: 30 10% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 25 25% 8%;
+    --card-foreground: 30 10% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 25 25% 8%;
+    --popover-foreground: 30 10% 95%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 15 88% 55%;
+    --primary-foreground: 30 10% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 65% 45%;
+    --secondary-foreground: 30 10% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 25 15% 15%;
+    --muted-foreground: 30 8% 70%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 100% 60%;
+    --accent-foreground: 25 25% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 25 15% 20%;
+    --input: 25 15% 15%;
+    --ring: 15 88% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Restaurant theme colors */
+    --fire-orange: 20 100% 55%;
+    --fire-red: 15 88% 55%;
+    --golden: 45 100% 60%;
+    --charcoal: 25 15% 12%;
+    --smoke: 25 8% 25%;
+    
+    /* Gradients */
+    --gradient-fire: linear-gradient(135deg, hsl(var(--fire-red)), hsl(var(--fire-orange)));
+    --gradient-golden: linear-gradient(135deg, hsl(var(--golden)), hsl(var(--fire-orange)));
+    --gradient-smoke: linear-gradient(180deg, hsl(var(--charcoal)), hsl(var(--smoke)));
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
